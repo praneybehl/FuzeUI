@@ -1,14 +1,14 @@
 {
   "name": "fuzeui",
   "version": "0.1.0",
-  "description": "FuzeUI - Frontend Framework with Bulma Css with Svelte.js ",
+  "description": "Fuze UI - Frontend Framework with Bulma Css with Svelte.js ",
   "main": "index.js",
   "scripts": {
     "start": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praneybehl/FuzeUI.git"
+    "url": "git+https://github.com/praneybehl/fuzeui.git"
   },
   "dependencies": {
     "svelte": "^1.12.1"
@@ -43,7 +43,7 @@
     "surge": "0.18.0"
   },
   "keywords": [
-    "FuzeUI",
+    "fuzeui",
     "Frontend",
     "Framework",
     "UI",
@@ -51,10 +51,10 @@
     "blumacss",
     "svelte.js"
   ],
-  "author": "Praney Behl",
+  "author": "Praney Behl <praneybehl@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/praneybehl/FuzeUI/issues"
+    "url": "https://github.com/praneybehl/fuzeui/issues"
   },
-  "homepage": "https://github.com/praneybehl/FuzeUI#readme"
+  "homepage": "https://github.com/praneybehl/fuzeui#readme"
 }
