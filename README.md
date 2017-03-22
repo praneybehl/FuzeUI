@@ -19,7 +19,7 @@ This repository is heavily under development and unstable.
 
 - build style
 
-If you change src/styles/*.css, please rebuild styles.
+If you change src/scss/*.scss, please rebuild styles.
 
 ```
 npm run build:style
