@@ -1,10 +1,12 @@
 # Fuze UI
-
-**Work in progress, check back soon - PRs are welcome!**
-This repository is heavily under development and unstable.  
+ 
 
 FuzeUI - Modern UI framework based on [Bulma css](https://github.com/jgthms/bulma) and [Svelte.js](https://github.com/sveltejs/svelte)
 
+
+**Work in progress, check back soon - PRs are welcome!**
+
+This repository is heavily under development and unstable. 
 
 ----
 
