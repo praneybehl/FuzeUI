@@ -11,13 +11,15 @@
     "dist"
   ],
   "scripts": {
-    "dist": "rollup -c",
-    "prepublish": "npm run dist",
-    "postpublish": "git push && git push --tags",
     "clean": "rimraf dist",
-    "build:style": "npm-run-all clean build:scss build:autoprefix",
-    "build:scss": "node-sass src/global.scss -o dist",
-    "build:autoprefix": "postcss --use autoprefixer -o dist/global.css dist/global.css"
+    "build": "npm-run-all clean build:js build:style uglify",
+    "build:js": "rollup -c",
+    "build:style": "npm-run-all build:scss build:autoprefix",
+    "build:scss": "node-sass src/fuzeui.scss -o dist",
+    "build:autoprefix": "postcss --use autoprefixer -o dist/fuzeui.css dist/fuzeui.css",
+    "uglify": "npm-run-all uglify:css uglify:js",
+    "uglify:js": "uglifyjs dist/fuzeui.js > dist/fuzeui.min.js",
+    "uglify:css": "uglifycss dist/fuzeui.css > dist/fuzeui.min.css"
   },
   "dependencies": {
     "svelte": "^1.12.1"
@@ -36,7 +38,10 @@
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-sass": "^0.4.10",
-    "rollup-plugin-svelte": "^1.6.1"
+    "rollup-plugin-svelte": "^1.6.1",
+    "uglify-js": "^2.8.14",
+    "uglify-js-harmony": "^2.7.5",
+    "uglifycss": "^0.0.25"
   },
   "keywords": [
     "fuzeui",
