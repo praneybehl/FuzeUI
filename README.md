@@ -1,3 +1,4 @@
+# ![FuzeUI](https://github.com/praneybehl/fuzeui/blob/master/logo.png?raw=true)
 # Fuze UI
  
 
