@@ -20,6 +20,7 @@ export { default as Table } from "./elements/Table.html";
 export { default as Tag } from "./elements/Tag.html";
 export { default as Titles } from "./elements/Titles.html";
 export { default as Columns } from "./grid/Columns.html";
+export { default as Columns } from "./grid/Column.html";
 export { default as Tile } from "./grid/Tile.html";
 export { default as Container } from "./layout/Container.html";
 export { default as Footer } from "./layout/Footer.html";

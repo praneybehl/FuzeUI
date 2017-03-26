@@ -32,6 +32,7 @@ npm run build:style
 #### Grid
 
 - [ ] Columns
+- [ ] Column
 - [ ] Tile
 
 #### Elements
